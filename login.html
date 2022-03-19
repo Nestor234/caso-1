@@ -1,0 +1,126 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: Georgia;
+    background-image: url('fondo.jpg');
+  }
+
+  .form-login{
+    width: 400px;
+    height: 340px;
+    background: #4e4d4d;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: white;
+  }
+
+  .form-login h5{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+  }
+
+  .controls {
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .buttons {
+    width: 100%;
+    height: 40px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 16px;    
+  }
+
+  .form-login p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+  }
+
+  .form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .form-login a:hover {
+    text-decoration: underline;
+  }
+
+  .error {
+    background: #fff;
+    border-left: 3px solid red;
+    MARGIN: auto;
+    width: 400px;
+    height: 50px;
+    DISPLAY: FLEX;
+    JUSTIFY-CONTENT: flex-start;
+    ALIGN-ITEMS: center;
+    PADDING-LEFT: 20PX;
+    margin-top: 30px;
+    box-shadow: #3e3b3b 1px 3px 10px;
+  }
+</style>
+</head>
+
+
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://use.fontawesome.com/be1ba39dfe.js"></script>
+        <link rel="stylesheet" href="./css/product_style.css">
+        <title>BUY BOOK´S FAST!!!</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-right">
+                <li><a href="/index.html">INICIO</a></li>
+                <li><a href="/products.html">PRODUCTOS</a></li>
+                <li><a href="/About.html">ACERCA DE LA PÁG</a></li>
+                <li><a href="/login.html">INICIAR SESIÓN</a></li>
+                <li><a href="/Register.html">CREAR CUENTA</a></li>
+            </div>
+        </nav>
+    </head>
+    <body>
+        <section class="form-login">
+            <h5>Iniciar Sesión</h5>
+            <form action="login.php" method="post">
+                <input class="controls" type="text" name="nombre" value="" placeholder="Ingrese su Usuario">
+                <input class="controls" type="password" name="contraseña" value="" placeholder="Ingrese su Contraseña">
+                <input class="buttons" type="submit" name="" value="Ingresar">
+            </form>
+            <p><a href="#">¿Olvidaste tu contraseña? </a></p>
+            
+        </section>
+    </body>
+
+</html>
